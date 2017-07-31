@@ -17,9 +17,7 @@
 ## 第三步：
 ```
 重启sublime text编辑器
-(此时也可以使用，ctrl + shift + P => 输入 sublimeREPL
-重启sublime text编辑器，
-重启sublime text编辑器
+(此时也可以使用，ctrl + shift + P => 输入 sublimeREPL => 选择sublimeREPL：shell => 就可以使用sublime集成版的shell了)
 ```
 ## 第四步：
 ```
@@ -27,10 +25,10 @@ sublime text => Prefenences => key Bindings =>
 
 [
   { 
-		"keys": ["f7"],
-		"command": "toggle_setting",
-		"args": {"setting": "word_wrap"}
-	},
+	"keys": ["f7"],
+	"command": "toggle_setting",
+	"args": {"setting": "word_wrap"}
+  },
   { 
   	"keys":["f5"],
   	"caption": "SublimeREPL: Shell - RUN current file",
@@ -39,15 +37,11 @@ sublime text => Prefenences => key Bindings =>
   },
 ]
 ```
-## 第三步：
+## 第五步：
 ```
-重启sublime text编辑器
+直接按 F5 , 就可以看到了
 ```
-## 第三步：
+## 第六步：
 ```
-重启sublime text编辑器
-```
-## 第三步：
-```
-重启sublime text编辑器
+sublime => view => loyout => rows: 2 就可以看到
 ```
